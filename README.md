@@ -2,7 +2,7 @@
 
 Here is a quick writeup to get you started so you do not have to guess. First, I utilized GIT: as a start, but some stuff was incomplete and did not make sense.
 
-###For this quick guide you will need:###
+#For this quick guide you will need:#
 1. Windows 10/11 Machine
 2. An Intel ARC GPU
 3. Tdarr setup and ready to. Recommend to put it in your C:\ (root)
