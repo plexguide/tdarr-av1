@@ -1,7 +1,7 @@
 # tdarr-av1
 
 Here is a quick write up to get you going. If you are running linux or using an Intel ARC card, the logic is the same; you just have to check a different box. This specifically is for
-<br>
+<br><br>
 
 For this quick guide you will need:
 1. Windows 10/11 Machine
