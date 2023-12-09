@@ -24,9 +24,9 @@ For this quick guide you will need:
 2. Download and install the GUI version of Handbrake (has to be 1.71 or above): [https://handbrake.fr/rotation.php?file=HandBrake-1.7.1-x86_64-Win_GUI.exe](https://handbrake.fr/rotation.php?file=HandBrake-1.7.1-x86_64-Win_GUI.exe) 
 3. This is the Command Line for Handbrake. Download this and extract to your desktop via: [https://handbrake.fr/downloads2.php](https://handbrake.fr/rotation.php?file=HandBrakeCLI-1.7.1-win-x86_64.zip)
 4. From the CLI version of handbrake (HandBrakeCLI.exe), overwrite the 3 from three different locations (do not be special, just do it):
-   a. C:\Tdarr\HandBrakeCLI.exe
-   b. C:\Tdarr\Tdarr_Node\assets\app\HandBrakeCLI.exe
-   c. C:\Tdarr\Tdarr_Server\assets\app\HandBrakeCLI.exe
+   <br>a. C:\Tdarr\HandBrakeCLI.exe
+   <br>b. C:\Tdarr\Tdarr_Node\assets\app\HandBrakeCLI.exe
+   <br>c. C:\Tdarr\Tdarr_Server\assets\app\HandBrakeCLI.exe
 5. Create a folder called: C:\cache
 <br><br>
 
