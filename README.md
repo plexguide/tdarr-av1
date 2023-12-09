@@ -35,16 +35,16 @@ For this quick guide you will need:
 4. Summary Mini Tab > Format [MKV]
 5. Dimensions > Resolution Limit [None]
 6. Video
-   a. Video Encoder > AV1 10-bit (NVEnc)
-   b. Framerate > Same as source & Constant Framerate
-   c. Encoder Option > Encoder Present: Slowest (slide right)
-   d. Quality > Mine is at 40 (the smaller the number, the bigger the file... which is bad)
-   e. Audio > Codec (E-AC) Passthru [This may not be required, just a habit]
+    <br>a. Video Encoder > AV1 10-bit (NVEnc)
+    <br>b. Framerate > Same as source & Constant Framerate
+    <br>c. Encoder Option > Encoder Present: Slowest (slide right)
+    <br>d. Quality > Mine is at 40 (the smaller the number, the bigger the file... which is bad)
+    <br>e. Audio > Codec (E-AC) Passthru [This may not be required, just a habit]
 7. Save New Preset Button
    a. Name: t1
    b. Resolution Limit: [None]
    c. Audio:
-     <br><br>i. Track Selection Behavior: [All Matching Selected Languages]
+     <br>i. Track Selection Behavior: [All Matching Selected Languages]
      <br>ii. 'Auto Passthru' Behavior: [Check All of them, yes all of them]
      <br>iii. Fallback Encoder: [None]
      <br>iv. Audio encoder settings for each chosen track: Codec > [Auto Passthru] ... goof this and all your videos may turn into MP3 codecs.
