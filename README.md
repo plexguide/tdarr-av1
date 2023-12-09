@@ -44,7 +44,7 @@ For this quick guide you will need:
    a. Name: t1
    b. Resolution Limit: [None]
    c. Audio:
-     <br>i. Track Selection Behavior: [All Matching Selected Languages]
+     <br><br>i. Track Selection Behavior: [All Matching Selected Languages]
      <br>ii. 'Auto Passthru' Behavior: [Check All of them, yes all of them]
      <br>iii. Fallback Encoder: [None]
      <br>iv. Audio encoder settings for each chosen track: Codec > [Auto Passthru] ... goof this and all your videos may turn into MP3 codecs.
