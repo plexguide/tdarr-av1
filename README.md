@@ -1,6 +1,7 @@
 # tdarr-av1
 
-Here is a quick writeup to get you started so you do not have to guess. First, I utilized GIT: as a start, but some stuff was incomplete and did not make sense. This guide is not telling you how to setup Tdarr, basically you should have some basic knowledge of how it runs.
+Here is a quick write up to get you going. If you are running linux or using an Intel ARC card, the logic is the same; you just have to check a different box. This specifically is for
+<br>
 
 For this quick guide you will need:
 1. Windows 10/11 Machine
