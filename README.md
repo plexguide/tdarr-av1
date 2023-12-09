@@ -1,13 +1,21 @@
 # tdarr-av1
 
-Here is a quick write up to get you going. If you are running linux or using an Intel ARC card, the logic is the same; you just have to check a different box. This specifically is for
+### Quick Info
+This write is to help you get going. There may be mistakes or I am taking extra steps, but more knowledge is better than nothing.
 <br><br>
 
+### For This
 For this quick guide you will need:
 1. Windows 10/11 Machine
-2. An Intel ARC GPU
-3. Tdarr setup and ready to. Recommend to put it in your C:\ (root)
-4. Make sure to check Tdarr is running at least 2.11.01 (latest one today)
+2. A 4000 Series RTX GPU (4050 - 4090)
+3. A decent processor
+
+### Prepwork
+1. Download Tdarr and unextract the file to C:\Tdarr 
+2. Download and install the GUI handbrake like normal via: [https://handbrake.fr/rotation.php?file=HandBrake-1.7.1-x86_64-Win_GUI.exe](https://handbrake.fr/rotation.php?file=HandBrake-1.7.1-x86_64-Win_GUI.exe) >>> It needs to be 1.71+
+3. This is the Command Line for Handbrake. Download this and extract to your desktop via: [https://handbrake.fr/downloads2.php](https://handbrake.fr/rotation.php?file=HandBrakeCLI-1.7.1-win-x86_64.zip)
+
+
 
 Special Note 1: Enable automatic login on your PC. This is useful for recovery in the event of a system crash. If you're familiar with older programs like Plexguide, you'll recognize the superiority of Linux and Docker. Essentially, configure your machine to automatically resume operations after a reboot.
 
