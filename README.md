@@ -44,12 +44,12 @@ For this quick guide you will need:
    a. Name: t1
    b. Resolution Limit: [None]
    c. Audio:
-     i. Track Selection Behavior: [All Matching Selected Languages]
-     ii. 'Auto Passthru' Behavior: [Check All of them, yes all of them]
-     iii. Fallback Encoder: [None]
-     iv. Audio encoder settings for each chosen track: Codec > [Auto Passthru] ... goof this and all your videos may turn into MP3 codecs.
-     v. For Additioinal Tracks: Use All Tracks as Templates
-     vi. Click Save
+     <br>i. Track Selection Behavior: [All Matching Selected Languages]
+     <br>ii. 'Auto Passthru' Behavior: [Check All of them, yes all of them]
+     <br>iii. Fallback Encoder: [None]
+     <br>iv. Audio encoder settings for each chosen track: Codec > [Auto Passthru] ... goof this and all your videos may turn into MP3 codecs.
+     <br>v. For Additioinal Tracks: Use All Tracks as Templates
+     <br>vi. Click Save
 <br><br>
 ### Testing Before Moving On
 
