@@ -1,5 +1,7 @@
 # tdarr-av1
 
+## BEAR with Me. I'm typing this just as a quick guide at 11:47PM/2347EST (so I'm tired).
+
 ### Quick Info
 This write is to help you get going. There may be mistakes or I am taking extra steps, but more knowledge is better than nothing.
 <br><br>
@@ -57,11 +59,47 @@ This can all be skipped, but you can see the results before executing all of thi
 
 Remember how I said to select a video, you can actually hit the start encode button and let it run and you can check the quality and tweak how you like. You can change the quality number to see where you want it.
 
-TIP 1: Test a really highend file.
-TIP 2: Watch it on a 4k monitor, the results.
-TIP 3: Don't get to hell bent on the #'s, if it looks really good and the file is smaller, your good.
-TIP 4: Check the original file size and the new file size. If your new file is bigger... well your quality # is too small, if even... too small. You should at least have a 50% reduction.
+ <br>TIP 1: Test a really highend file.
+ <br>TIP 2: Watch it on a 4k monitor, the results.
+ <br>TIP 3: Don't get to hell bent on the #'s, if it looks really good and the file is smaller, your good.
+ <br>TIP 4: Check the original file size and the new file size. If your new file is bigger... well your quality # is too small, if even... too small. You should at least have a 50% reduction.
 <br><br>
-### 
+### Tdarr Basic Setup
+1. Click C:\Tdarr\Tdarr_Node\Tdarr_Node_Tray.exe
+2. Click C:\Tdarr\Tdarr_Server\Tdarr_Server_Tray.exe
+3. Access Tdarr via your browser - http://localhost:8096
+4. On the main tab, scroll down and CHECK - Auto accept successful transcodes
+5. Scrollback up to Node priority... click the node... some random name...
+6. Transcode CPU: 0 ... TGPU: 1 (you can increase this, but do this after it all works)
+7. Health Check: 2 ... GPU: 0
+8. Look above and you will see [OPTIONS]... click and scroll down past the all the config stuff.
+9. Make sure [NVENC] or [Any...] is select for the type of hardware and scroll down a tiny bit more.
+10. Check... Allow GPU workers to do CPU tasks and then click the X in the upper right.
+<br><br>
+### Tdarr Library
+1. At the very top, click Library (and yes you can create multiple ones later, but do this first and make sure it works!)
+2. Click Library+ and then look at the mini tabs below.
+3. [Source]: Turn on folder watch and SELECT WHERE YOUR MEDIA IS AT. Mine for example is z:/tv
+4. [Transcode cache]: C:/cache
+5. [Filters] Codes to Skip: AV1 (note you can put AV1,HEVC if you want to leave your x265 files alone)
+6. [Transcode Options]: Disable all of them or delete them all... EXCEPT New File Size Check!
+   <br>a. Click Community & Type 075 in the search and drag over ---- Community:Video Transcode Customisable
+   <br>b. Click the Video Transcode Customisable Tab and options should come up.
+   <br>c. codecs to exclude: av1 (or av1,hevc if you want to leave your x265 files alone)
+   <br>d. transcode_arguements: --preset-import-gui -Z "t1"
+   <br><br>
+   NOTE: Pay attention to the t1. This is the name you created in handbrake. If you called it something else because you were special to start with, change it to THAT! If you create a new profile while tdarr SERVER,NODE is running... you must restart them again. If not, it's going to give you the finger!
+   <br><br>e. output_container: .mkv
+   <br>f. Click new container check.
+   <br>g. Change upperbound to 99 and lowerBound to 5
+   <br>h. Click the big green options button and click NEW FRESH SCAN, whatever the wording is!
+
+### Final Notes
+1. If you click your home page again, you should see stuff transcoding... if not... it's because you may have named something incorrectly.
+2. I recommend to REBOOT the system if it doesn't work the first time... it's happened to me!
+3. G to the very bottom and click SORT QUEUE BY: whatever you want
+4. Good luck. If you push a change or do something in reddit, i'll update this
+   
+   
 
 
