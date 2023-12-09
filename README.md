@@ -80,7 +80,7 @@ Remember how I said to select a video, you can actually hit the start encode but
 1. At the very top, click Library (and yes you can create multiple ones later, but do this first and make sure it works!)
 2. Click Library+ and then look at the mini tabs below.
 3. [Source]: Turn on folder watch and SELECT WHERE YOUR MEDIA IS AT. Mine for example is z:/tv
-4. [Transcode cache]: C:/cache
+4. [Transcode cache] - C:/cache
 5. [Filters] Codes to Skip: AV1 (note you can put AV1,HEVC if you want to leave your x265 files alone)
 6. [Transcode Options]: Disable all of them or delete them all... EXCEPT New File Size Check!
    <br>a. Click Community & Type 075 in the search and drag over ---- Community:Video Transcode Customisable
