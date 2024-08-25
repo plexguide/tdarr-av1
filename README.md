@@ -1,6 +1,6 @@
 # tdarr-av1
 
-## BEAR with Me. I'm typing this just as a quick guide at 11:47PM/2347EST (so I'm tired).
+BEAR with Me. I'm typing this just as a quick guide at 11:47PM/2347EST (so I'm tired).
 
 ## PlexGuide Information - About the Main Project (This quick Guide for Windows is below)
 Visit PlexGuide Repo @ https://github.com/plexguide/PlexGuide.com
