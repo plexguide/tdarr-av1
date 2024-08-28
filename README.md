@@ -1,5 +1,11 @@
 # tdarr-av1
 
+<p align="left">
+  <a href="https://discord.gg/93PYgqDX9T">
+    <img src="https://i.imgur.com/XI1WGxi.png" alt="Menu Example" width="15%">
+  </a>
+</p>
+
 BEAR with Me. I'm typing this just as a quick guide at 11:47PM/2347EST (so I'm tired).
 
 ## PlexGuide Information - About the Main Project (This quick Guide for Windows is below)
