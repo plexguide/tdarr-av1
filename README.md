@@ -3,6 +3,8 @@
 ### Better Guide for Tdarr AV1
 (https://github.com/plexguide/Unraid_Intel-ARC_Deployment)
 
+##### WANT TO HELP? CLICK THE ★ (STAR LOGO) in the Upper-Right! 
+
 ### Quick Info
 NOTE, the guide link above is better. This was a quick write up for something via Windows. This write is to help you get going. There may be mistakes or I am taking extra steps, but more knowledge is better than nothing.
 <br><br>
