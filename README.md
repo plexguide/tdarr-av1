@@ -1,34 +1,7 @@
 # tdarr-av1
 
-<p align="left">
-  <a href="https://discord.gg/93PYgqDX9T">
-    <img src="https://i.imgur.com/XI1WGxi.png" alt="Menu Example" width="15%">
-  </a>
-</p>
-
-BEAR with Me. I'm typing this just as a quick guide at 11:47PM/2347EST (so I'm tired).
-
-## PlexGuide Information - About the Main Project (This quick Guide for Windows is below)
-Visit PlexGuide Repo @ https://github.com/plexguide/PlexGuide.com
-```bash
-sudo apt-get update && sudo apt-get install -y curl && bash <(curl -s https://raw.githubusercontent.com/plexguide/Installer/v11/install_menu.sh)
-```
-
-* Simple, debloated, no fancy menus and executes for exactly what you need and works for Ubuntu 22 and Ubuntu 24 Server LTS
-* Once installed, type `pg` or `plexguide` - In Beta
-
-<p align="center">
-  <table align="center">
-    <tr>
-      <td align="center"><img src="https://i.imgur.com/HzCKvO5.jpeg" alt="Menu Example" width="500"></td>
-      <td align="center"><img src="https://i.imgur.com/pu1D9Cc.jpeg" alt="Plex Example" width="500"></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://i.imgur.com/goozBTI.jpeg" alt="Plex Example" width="500"></td>
-      <td align="center"><img src="https://i.imgur.com/WkEyL9D.jpeg" alt="Plex Example" width="500"></td>
-    </tr>
-  </table>
-</p>
+### Better Guide for Tdarr AV1
+(https://github.com/plexguide/Unraid_Intel-ARC_Deployment)
 
 ### Quick Info
 This write is to help you get going. There may be mistakes or I am taking extra steps, but more knowledge is better than nothing.
